@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>class 1 code 201</title>
+    </head>
+    <body style="background: rgba(56, 23, 15, 0.952);">
+        <header>
+            <nav style="margin: 10px;" >
+                <img  style="width: 4%;margin: 10px;" src="https://speckyboy.com/wp-content/uploads/2013/05/11-filmoteka-educational-app-icon_compressed.jpg" alt="">
+                <a style="font-size: 20px;color: azure"  href="">home</a>
+                <a style="font-size: 20px;color: azure" href="">books</a>
+                <a style="color: azure;font-size: 20px;"  href=" ">actors</a>
+            </nav>
+            <nav>
+            <img style="width: 17%;" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617572541l/41865.jpg" alt="">
+            <img style="width: 17%;" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY475_.jpg" alt="">
+            <img style="width: 17%;" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1588455221l/13335037._SY475_.jpg" alt="">
+            <img style="width: 18%;" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1587697303l/1._SX318_.jpg" alt="">
+            <img style="width: 17%;" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1572940430l/4667024._SY475_.jpg" alt="">
+            </nav>
+            <nav>
+            <a style="font-size: 85px;color: rgb(253, 252, 251);">Watch thousands of shows and movies</a>
+            </nav>
+        </header>
+        <main></main>
+        <footer></footer>
+        <script>
+        var username = prompt ('enter your name please');
+        console.log(username)  
+        var choise = prompt('Hello '+ username +', do you prefer movies or books?' )  
+        while(choise !== 'movies' && choise !== 'books')
+        {
+            choise = prompt('Hello '+ username +', do you prefer movies or books?' )    
+        }
+        if (choise == 'movies')
+        {
+            var moviesChoise = prompt ('do you prefer action movies or romantic ?')
+            while(moviesChoise !== 'action' && moviesChoise !== 'romantic')
+            {
+               moviesChoise = prompt ('do you prefer action movies or romantic ?')    
+            }
+            prompt('what is your favarite ' + moviesChoise + ' movie ?')
+            alert('nice movie')
+        }
+
+        if (choise == 'books')
+        {
+            var booksChoise = prompt ('do you prefer novels or scientific books ?')
+            while(booksChoise !== 'novels' && booksChoise !== 'scientific')
+            { 
+                booksChoise =  prompt ('do you prefer novels or scientific books?')    
+            }
+            prompt('what is your favarite ' + booksChoise + ' book ?')
+            alert('nice book')
+        }
+
+
+        </script>
+    </body>
+</html>
+
+
